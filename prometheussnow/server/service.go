@@ -42,7 +42,6 @@ func snowConfig() (*SNOW, error) {
 
 	// create an instance of the service
 	snow := &SNOW{
-		//	ox:   client,
 		conf: conf,
 	}
 	// returns the service instance
