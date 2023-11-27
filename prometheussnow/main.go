@@ -1,9 +1,8 @@
 package main
 
-import . "github.com/nagendradevops/webhook/prometheussnow/server/"
+import . "github.com/nagendradevops/webhook/prometheussnow/server"
 
 func min() {
-
 	snow, err := snowConfig()
 	if err != nil {
 		panic(err)
