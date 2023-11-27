@@ -1,0 +1,20 @@
+# the SNOW service instance Id for logging identification purposes
+Id = "SnowServiceStatus"
+
+# verbosity of logging (Trace, Debug, Warning, Info, Error, Fatal, Panic)
+LogLevel = "Trace"
+
+# enables metrics
+Metrics = "true"
+
+# configuration for SNOW Http Service
+AuthMode    = "none"
+Path        = "alerts"
+Port        = "8888"
+Username    = "admin"
+Password    = "$n0w"
+
+# configuration for the SNOW API integration
+snowurl = "https://dev183753.service-now.com/"
+snowusername = "aes.creator"
+snowpassword = "@q4RXR2iiK!v"
