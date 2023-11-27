@@ -8,6 +8,7 @@ require (
 	github.com/prometheus/client_golang v1.17.0
 	github.com/rs/zerolog v1.31.0
 	github.com/spf13/viper v1.17.0
+	
 )
 
 require (
